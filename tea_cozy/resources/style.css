@@ -1,0 +1,152 @@
+/* global */
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color:  seashell;
+  opacity: 0.9;
+}
+
+h2, h4, h3 {
+ margin: 10px auto;
+}
+/* header */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-bottom: solid seashell 1px;
+  z-index: 1;
+  background-color: black;
+  text-decoration: underline;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  min-width:  456px;
+}
+.navbar a{
+  padding: 5px 15px;
+  color:  seashell;
+}
+/* body */
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-top: 69px;
+    flex-direction: column;
+}
+
+/* mission section */
+.mission {
+  display: flex;
+  background-image: url("img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.mission_text {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* featured section */
+.featured {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 70px;
+  height: 700px;
+}
+
+.featured_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.featured_box img {
+   margin: 10px;
+}
+
+/* locations */
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-image: url("img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 15px;
+}
+
+.place_box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+}
+
+.place_box h4 {
+  margin: 22px auto;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.footer h2 {
+  margin-bottom: 25px;
+}
+.footer h5 {
+  margin: 12px auto;
+}
+
+footer h5 {
+}
